@@ -1,0 +1,6 @@
+walks = input()
+walks_list = walks.split()
+#the smallest integer- the length of the rectangle, the third integer-the closing of the width.
+walks_list.sort()
+#the first 3 integers(sorted) determine the size of the rectangle. we multiple the min with the max
+print(int(walks_list[0])*int(walks_list[2]))
