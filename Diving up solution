@@ -1,0 +1,5 @@
+n = int(input())
+for i in range(n):
+    w = list(map(int,input().split(' ')))
+    print('no' if sum(w) % 3 != 0 else 'yes')
+    break
