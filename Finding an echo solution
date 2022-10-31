@@ -1,0 +1,5 @@
+d = input()
+if d.isalpha and 1 <= len(d) <= 15 and "Hello" or "ECHO" in d:
+    d += " "
+    d *= 3
+    print(d)
