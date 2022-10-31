@@ -1,0 +1,4 @@
+s = input().split(' ')
+#in set there are not duplicates-that's what
+#it is useful to convert string into set
+print('yes' if len(s)==len(set(s)) else 'no')
