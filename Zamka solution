@@ -1,0 +1,20 @@
+
+def sum_digits(x):
+    #calculating sum of number's digit by using modulo and complete divide by 10
+    cur_sum_d = 0
+    while x != 0:
+        cur_sum_d += x % 10
+        x //= 10
+    return cur_sum_d
+
+#iterating over numbers in range of minimum and maximum
+min_, max_, sum_d = int(input()), int(input()), int(input())
+for num in range(min_, max_ + 1):
+    if sum_digits(num) == sum_d:
+        print(num)
+        break
+#iterating from maximum to minimum
+for num in range(max_, min_ - 1, -1):
+    if sum_digits(num) == sum_d:
+        print(num)
+        break
