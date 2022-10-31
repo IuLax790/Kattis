@@ -1,0 +1,11 @@
+A,B = map(int,input().split())
+A = str(A)
+B = str(B)
+A = A[::-1]
+B = B[::-1]
+A = int(A)
+B = int(B)
+if A>B:
+    print(A)
+else:
+    print(B)
