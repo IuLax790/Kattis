@@ -1,0 +1,10 @@
+def main():
+    number_of_temperatures = input("")
+    temperatures = input("").split(" ")
+    temperatures = list(map(int, temperatures))
+    number_of_temperatures_less_zero = 0
+
+    for temperature in temperatures:
+        if temperature < 0:
+            number_of_temperatures_less_zero += 1
+    print(number_of_temperatures_less_zero)
