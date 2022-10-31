@@ -1,2 +1,2 @@
 # Kattis
-My kattis solutions for python
+My kattis solutions in python
