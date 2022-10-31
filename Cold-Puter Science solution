@@ -8,3 +8,5 @@ def main():
         if temperature < 0:
             number_of_temperatures_less_zero += 1
     print(number_of_temperatures_less_zero)
+if __name__ == '__main__':
+    main()
