@@ -1,0 +1,12 @@
+cards = input().split()
+
+ranks = {}
+for card in cards:
+    #ranking is by the card type
+    rank = card[0]
+    #the strength of the card
+    ranks[rank] = ranks.get(rank, 0) + 1
+#classifiying cards by the most ranking card
+mostOccurringRank = max(ranks, key = ranks.get)
+handStrength = ranks[mostOccurringRank]
+print(handStrength)
