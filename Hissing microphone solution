@@ -1,0 +1,6 @@
+word = input('')
+
+if word.islower() and "ss" in word or word=="hiss":
+    print("hiss")
+else:
+    print("no hiss")
