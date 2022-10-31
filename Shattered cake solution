@@ -1,0 +1,11 @@
+W = int(input())
+n = int(input())
+
+total = 0
+#Since input starts at 1, we reducing n by -1.
+for i in range(n-1, -1, -1):
+    w, h = (int(x) for x in input().split())
+    #for each piece we are calculating the area
+    total += h*w
+
+print(int(total/W))
