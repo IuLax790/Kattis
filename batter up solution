@@ -1,0 +1,10 @@
+n = int(input())
+for i in range(n):
+    num = list(map(int,input().split(' ')))
+    for l in num:
+        if l==-1:
+            num.remove(l)
+    avg = sum(num)/len(num)
+
+    print(avg)
+    break
