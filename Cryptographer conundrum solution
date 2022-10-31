@@ -16,4 +16,4 @@ for i in range(len(checkR)):
   if checkR[i] != "R":
     ans = ans + 1
 
-print (ans)
+print(ans)
