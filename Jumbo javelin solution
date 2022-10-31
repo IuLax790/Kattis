@@ -1,0 +1,6 @@
+N = int(input())
+rodes = 0
+for i in range(N):
+    n = int(input())
+    rodes +=n-1
+print(rodes+1)
