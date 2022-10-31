@@ -1,0 +1,4 @@
+A, I = map(int, input().split())
+assert 1<=A<=100 and 1<=I<=100
+N = A*I
+print(N-(A-1))
