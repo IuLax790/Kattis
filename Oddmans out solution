@@ -1,0 +1,7 @@
+import collections
+N = int(input())
+for i in range(N):
+    G = input()
+    codes = [int(x) for x in input().split(' ')]
+    C = collections.Counter(codes)
+    print("Case #" + str(i+1) + ": " + str(C.most_common()[len(C)-1]))
