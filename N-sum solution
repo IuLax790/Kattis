@@ -1,0 +1,6 @@
+N = int(input())
+for i in range(N):
+    n = map(int,input().split())
+    result = sum(n)
+    print(result)
+    break
