@@ -1,0 +1,19 @@
+cipher = list(str(input()))
+
+ans = 0
+
+checkP = cipher[0::3]
+checkE = cipher[1::3]
+checkR = cipher[2::3]
+
+for i in range(len(checkP)):
+  if checkP[i] != "P":
+    ans = ans + 1
+for i in range(len(checkE)):
+  if checkE[i] != "E":
+    ans = ans + 1
+for i in range(len(checkR)):
+  if checkR[i] != "R":
+    ans = ans + 1
+
+print (ans)
