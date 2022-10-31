@@ -1,0 +1,7 @@
+s = input()
+s = s.split("-")
+st = ""
+for i in s:
+    if i[0].upper():
+        st+=i[0]
+print(st)
