@@ -1,0 +1,14 @@
+In = 0
+out = 0
+s = int(input())
+for i in range(s):
+    i = input().split()
+    i[2] = int(i[2])
+    if "IN" in i[1]:
+        In+=i[2]
+    elif "OUT" in i[1]:
+        out+=i[2]
+if In>out:
+    print(In-out)
+else:
+    print("NO STRAGGLERS")
